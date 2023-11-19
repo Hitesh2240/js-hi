@@ -40,7 +40,16 @@ const user = [
 ]
 // console.log(user[1].email)
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn')) //is used to search this key exist or not 
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')) //is used to search this key exist or not 
+
+const course = {
+    course: "js ",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+// course.courseInstructor
+const {courseInstructor} = course
+console.log(courseInstructor) // this is the best method to display the any key of the object again again
